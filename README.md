@@ -15,7 +15,7 @@ Unlike traditional web-based third-party tools that suffer from browser latency,
 
 ### Key Flight-Deck Capabilities:
 * **The Sovereign Black Box:** Deterministic event-sourced journal replay that reconstructs your entire commander career, active fleet, stored modules, carrier inventory, and engineering inventory directly into high-speed local SQLite databases.
-* **Vector CAD System Orrery:** Real-time colonization logistics, drag-and-drop starport outfitting racks, ILS glide-slope landing beacons, and hand-calibrated orbital CAD layout persistence.
+* **Colonisation System Architect & Vector Orrery:** Comprehensive CAD blueprints for the new Frontier Colonisation initiative. Features an EDSY-style drag-and-drop facility staging rack for outfitting *entire star systems* with orbital stations, planetary ports, and outposts—complete with ILS glide-slope landing beacons, orthogonal moon rails, and persistent hand-calibrated layouts *(Note: this is for star system architectural construction, not starship module loadouts)*.
 * **Quartermaster Engineering Matrix:** 100% 3NF relational blueprint tracker calculating exact multi-roll material deficits across all Horizons and Odyssey workshops without external API lag.
 * **Carrier Double-Entry Manifest:** Real-time reconciliation of your carrier's market trades and private non-market cargo vaults.
 * **Frontier CAPI Deep Integration:** Official OAuth2 PKCE link straight to Frontier Developments for live profile, ship loadout, and fleet carrier synchronization.
