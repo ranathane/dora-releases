@@ -59,6 +59,20 @@ D.O.R.A. is currently in **active flight testing**. By participating in this alp
    * A browser window will open to Frontier Developments' secure login. Authorize D.O.R.A.
    * Once approved, the local listener will secure your encrypted tokens into `dora_nav.db` and unlock live fleet loadouts and carrier cargo orders.
 
+### ⚠️ IMPORTANT: WHERE TO EXTRACT D.O.R.A. (AVOIDING VACUUM LEAKS)
+
+Because D.O.R.A. is a portable, high-velocity avionics suite that manages local SQLite databases:
+
+* 🟢 **RECOMMENDED FLIGHT-DECK LOCATIONS:**
+  * `C:\DORA\`
+  * `D:\DORA\` or `D:\Games\DORA\`
+  * `C:\Users\<YourUsername>\DORA\`
+
+* 🔴 **STRICTLY PROHIBITED (WILL CRACK CANOPY GLASS):**
+  * ❌ **`C:\Program Files` or `C:\Program Files (x86)`:** Windows User Account Control (UAC) blocks background SQLite write locks and will corrupt your flight logs.
+  * ❌ **OneDrive, Google Drive, or Dropbox synced folders:** Cloud sync engines lock SQLite `-wal` and `.db` files mid-flight, causing severe IO crashes and database corruption.
+  * ❌ **Directly on `C:\` root (without a folder):** Windows root directory permissions prevent file creation without Administrator elevation.
+
 ---
 
 ## 🔒 THE SOVEREIGN PRIVACY INVARIANT
