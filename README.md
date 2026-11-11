@@ -41,7 +41,7 @@ Unlike traditional third-party web tools that suffer from browser lag, API rate 
 ### 3. Star Caster P2P Astrogation (Nav Engine V2)
 * **Direct CMDR-to-CMDR Routing:** Export routes as raw system ID64 integer streams. Copy a 22,000 Ly route to your clipboard with one click and hand it to a wingmate without waiting for any third-party database to sync.
 * **Gate Zero O(1) Short-Circuit:** Sub-millisecond routing (0.0002s) for single-hop targets within jump range.
-* **Ranathane’s Line & Compass:** High-speed commuter vector projection solving short routes (50–500 Ly) in **2 to 5 milliseconds**.
+* **Ranathane’s Line & Compass:** High-speed commuter vector projection solving short routes (50–500 Ly) in **2 to 5 seconds**.
 * **Trans-Galactic Highway Solver:** Exhaustive, branch-and-bound local A* solver. Tested across 23,311 Ly (Exphiay to Colonia) producing a razor-sharp **73-hop master corridor** (69 neutron leaps) completely offline.
 
 ### 4. Frontline Operations & Wingman Accountability
